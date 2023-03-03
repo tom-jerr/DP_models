@@ -43,7 +43,10 @@
 
 ![](https://github.com/tom-jerr/MyblogImg/blob/main/object_detection/multi-head_attention.png)
 $$
-MultiHead(Q,K,V)=Concat(head_{1},\cdots,head_{h})W^{O}\\
+MultiHead(Q,K,V)=Concat(head_{1},\cdots,head_{h})W^{O}
+$$
+
+$$
 head_i=Attention(QW^{Q}_{i},KW^{K}_{i},VW^{V}_{i})
 $$
 ![](https://github.com/tom-jerr/MyblogImg/blob/main/object_detection/multi-head_attention_matrix.png)
@@ -73,11 +76,13 @@ $$
 
 ![](https://github.com/tom-jerr/MyblogImg/blob/main/object_detection/position_code.png)
 
-- **公式：**$pos$表示位置，i​表示维度
+- **公式：**$pos$表示位置，$i$表示维度
 
 $$
-PE_{(pos,2i)}=sin(pos/10000^{wi/d_{model}})\\
+PE_{(pos,2i)}=sin(pos/10000^{wi/d_{model}})
+$$
 
+$$
 PE_{(pos,2i+1)}=cos(pos/10000^{wi/d_{model}})
 $$
 
