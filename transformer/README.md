@@ -73,7 +73,7 @@ $$
 
 ![](https://github.com/tom-jerr/MyblogImg/blob/main/object_detection/position_code.png)
 
-- **公式：**$pos$表示位置，$i$表示维度
+- **公式：**$pos$表示位置，i​表示维度
 
 $$
 PE_{(pos,2i)}=sin(pos/10000^{wi/d_{model}})\\
